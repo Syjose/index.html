@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <audio id="clickSound" src="meow.mp3"></audio>
+    <div img src="capture.png" alt="Custom Search Icon">
+    <div class="container">
+        <a href="eggy.html" class="box" onclick="playClickSound()">
+            <div class="icon">
+                <img src="eggy.png" alt="Custom Search Icon">
+            </div>
+            <div class="content">
+                <h3>Eggy</h3>
+                <br>
+                <p>Pabebeng clingy na snorlax. laging nang uutos na pakainin sila. naiirita kapag ginising mo pero lagi ka niyang gigisingin pag tulog ka #mafia</p>
+            </div>
+        </a>
+        <a href="yolky.html" class="box" onclick="playClickSound()">
+            <div class="icon">
+                <img src="yolky.png" alt="Custom Search Icon">
+            </div>
+            <div class="content">
+                <h3>Yolky</h3>
+                <br>
+                <p>Kunwari ayaw sayo pero lagi kang binabantayan at tinatawag kapag wala siyang kasamang maglaro or magzoomies sa sala #goodboy</p>
+            </div>
+        </a>
+        <a href="flurry.html" class="box" onclick="playClickSound()">
+            <div class="icon">
+                <img src="flurry.jpg" alt="Custom Search Icon">
+            </div>
+            <div class="content">
+                <h3>Flurry</h3>
+                <br>
+                <p>So mother. laging buntis. it girl ng pacdal. may crystal sa noo. so me #queenbehaviour</p>
+            </div>
+        </a>
+        <!-- Duplicate the code below for three more cards -->
+        <a href="yolkyandeggy.html" class="box" onclick="playClickSound()">
+            <div class="icon">
+                <img src="cat4.png" alt="Custom Search Icon">
+            </div>
+            <div class="content">
+                <h3>Yolky & Eggy</h3>
+                <br>
+                <p>The Itlog Brothers</p>
+            </div>
+        </a>
+        <a href="others.html" class="box" onclick="playClickSound()">
+            <div class="icon">
+                <img src="cat5.png" alt="Custom Search Icon">
+            </div>
+            <div class="content">
+                <h3>Itlog and Friends</h3>
+                <br>
+                <p>Ma homies on stray yo!</p>
+            </div>
+        </a>
+        <a href="yolkyvids.html" class="box" onclick="playClickSound()">
+            <div class="icon">
+                <img src="cat6.png" alt="Custom Search Icon">
+            </div>
+            <div class="content">
+                <h3>Cat Videos</h3>
+                <br>
+                <p>Itlog, Mother Cat and Friends</p>
+            </div>
+        </a>
+      </div>
+    </div>
+    <script>
+        function playClickSound() {
+            var audio = document.getElementById("clickSound");
+            audio.play();
+        }
+    </script>
+</body>
+</html>

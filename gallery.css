@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+    background: linear-gradient(to right, rgba(242, 172, 185, 0.7), rgba(255, 223, 186, 0.7));
+
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(20%, 57fr));;
+   grid-gap: 40px;
+   
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

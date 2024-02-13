@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Flurry</title>
+</head>
+<body>
+    <audio id="clickSound" src="meow.mp3"></audio>
+    <header class="header">
+        <nav>
+            <img src="logo.png" alt="Logo">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="index.html">Choose Cat</a></li>
+                <li><a href="#">Sample</a></li>
+                <li><a href="#">Sample</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="gallery">
+            <a href="flurry/1.jpg" data-lightbox="models" data-title="Caption1" onclick="playClickSound()">
+                <img src="flurry/1.jpg">
+            </a>
+            <a href="flurry2.jpg" data-lightbox="models" data-title="Caption2" onclick="playClickSound()">
+                <img src="flurry/2.jpg">
+            </a>
+            <a href="flurry/3.jpg" data-lightbox="models" data-title="Caption3" onclick="playClickSound()">
+                <img src="flurry/3.jpg">
+            </a>
+            <a href="flurry/4.jpg" data-lightbox="models" data-title="Caption4" onclick="playClickSound()">
+                <img src="flurry/4.jpg">
+            </a>
+            <a href="flurry/5.jpg" data-lightbox="models" data-title="Caption5" onclick="playClickSound()">
+                <img src="flurry/5.jpg">
+            </a>
+            <a href="flurry/6.jpg" data-lightbox="models" data-title="Caption6" onclick="playClickSound()">
+                <img src="flurry/6.jpg">
+            </a>
+            <a href="flurry/7.jpg" data-lightbox="models" data-title="Caption7" onclick="playClickSound()">
+                <img src="flurry/7.jpg">
+            </a>
+            <a href="flurry/8.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/8.jpg">
+            </a>
+            <a href="flurry/8.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/8.jpg">
+            </a>
+            <a href="flurry/9.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/9.jpg">
+            </a>
+            <a href="flurry/10.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/10.jpg">
+            </a>
+            <a href="flurry/11.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/11.jpg">
+            </a>
+            <a href="flurry/12.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/12.jpg">
+            </a>
+            <a href="flurry/13.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/13.jpg">
+            </a>
+            <a href="flurry/13.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/13.jpg">
+            </a>
+            <a href="flurry/14.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/14.jpg">
+            </a>
+            <a href="flurry/15.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/15.jpg">
+            </a>
+            <a href="flurry/16.jpg" data-lightbox="models" data-title="Caption8" onclick="playClickSound()">
+                <img src="flurry/16.jpg">
+            </a>
+        </div>
+    </div>
+    <script>
+        function playClickSound() {
+            var audio = document.getElementById("clickSound");
+            audio.play();
+        }
+    </script>
+    <script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>
